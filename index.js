@@ -18,5 +18,5 @@ console.log('Hello');
 // * This new GoogleStrategy creates a new instance of the Google passport strategy
 passport.use(new GoogleStrategy());
 
-const PORT = process.env.PORT || 5000; // * Dynamic PORT Binding
+const PORT = process.env.PORT || 8000; // * Dynamic PORT Binding
 app.listen(PORT);
